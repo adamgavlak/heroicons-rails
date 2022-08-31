@@ -142,7 +142,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
-  arm64-darwin-21
+  ruby
 
 DEPENDENCIES
   debug (>= 1.0.0)
