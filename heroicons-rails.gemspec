@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Adam Gavlák"]
   spec.email       = ["adam@gavlak.sk"]
   spec.homepage    = "https://github.com/adamgavlak/heroicons-rails"
-  spec.summary     = "Rails engine for Heroicons."
+  spec.summary     = "Heroicons on Rails."
   spec.description = "Rails engine for beautiful hand-crafted SVG icons, by the makers of Tailwind CSS."
   spec.license     = "MIT"
 

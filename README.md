@@ -1,4 +1,4 @@
-# Heroicons Rails
+# <img src=".github/logo.svg?sanitize=true" width="24" height="24" alt="Heroicons on Rails"> Heroicons Rails
 
 Easiest way to use Heroicons in your Rails application. This project adds a view helper to render the beautiful hand-crafted SVG icons, by the makers of Tailwind CSS. All icons in Heroicons `v2.0.0` are supported.
 
