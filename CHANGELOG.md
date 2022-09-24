@@ -13,6 +13,9 @@ Nothing yet.
 ### Added
 - Icons up to release v2.0.11
 
+### Changed
+- Icons fixed in releases up to v2.0.11
+
 ## [1.0.0]
 
 ### Added
