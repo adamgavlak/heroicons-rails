@@ -6,7 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Nothing yet.
+## [1.1.1]
+
+### Changed
+- Nothing. Just a version bump
 
 ## [1.1.0]
 
