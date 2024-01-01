@@ -1,14 +1,17 @@
 module Heroicons
   class Icon
-    VARIANTS = %i[solid outline].freeze
-    SIZES = [20, 24].freeze
+    AVAILABLE_VARIANTS = {
+      16 => [:solid],
+      20 => [:solid],
+      24 => [:outline, :solid]
+    }.freeze
 
     attr_reader :name, :variant, :size
 
     def initialize(name, variant:, size:, **options)
       @name = name
-      @variant = variant.in?(VARIANTS) ? variant : :solid
-      @size = size.in?(SIZES) ? size : 24
+      @size = size.in?(AVAILABLE_VARIANTS.keys) ? size : 24
+      @variant = variant.in?(AVAILABLE_VARIANTS[@size]) ? variant : :solid
       @options = options.with_indifferent_access
     end
 

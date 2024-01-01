@@ -19,7 +19,7 @@ class Heroicons::IconTest < ActiveSupport::TestCase
   end
 
   test "sets a default size if invalid is provided" do
-    icon = Heroicons::Icon.new("name", size: 16, variant: :solid)
+    icon = Heroicons::Icon.new("name", size: 10, variant: :solid)
     assert_equal 24, icon.size
   end
 
