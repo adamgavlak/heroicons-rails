@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0]
+
+### Added
+- Micro (16) icon variant
+- New icons added between v2.0.11 and v2.1.1
+
+### Changed
+- SVGs of the optimized icons
+
 ## [1.1.1]
 
 ### Changed
